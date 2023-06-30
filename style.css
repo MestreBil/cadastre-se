@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(23, 22, 22);
+  display: flex;
+
+  
+}
+
+#form{
+ position: relative;
+ top: 40px;
+left:270px;
+ background: rgb(33, 31, 31);
+ border-radius: 10px;
+ padding: 60px;
+ width: 50vw;
+ align-items: center;
+ color: #ffa600;
+ box-shadow: 0px 10px 40px black;
+ display: flex;
+ height: 50vh;
+  
+  
+  
+ 
+}
+
+.title{
+  font-size: 1.8em;
+margin-bottom: 10px;
+  margin-left: 120px;
+  display: flex;
+
+}
+.input{
+  min-width: 280px;
+  border-radius: 12px;
+  padding: 5px;
+  margin: 0px 0px 12px -5px;
+  background: rgb(46, 40, 40);
+  box-shadow: 0px 10px 40px black;
+  display: flex;
+  
+ 
+}
+.input i{
+  font-size: 1.2em;
+  padding: 5px;
+  background: -webkit-linear-gradient(rgb(46, 40, 40));
+ 
+ 
+  
+  
+  
+}
+ 
+ 
+  .input input{
+    width: 80%;
+    border:none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    transform: translate(-5px);
+    color: #ffa600;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+  
+  }
+ 
+.fundoinput{
+  background: rgb(46, 40, 40);
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  
+  
+}
+#btn{
+  margin-top: 50px;
+  width: 50vw;
+  text-align: center;
+  display: flex;
+  padding: 10px ;
+ 
+  
+}
+
+#btn button{
+  font-family: 'Roboto', sans-serif;
+  background: #ffa600;
+  width: 100vw;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+  outline:none;
+  border-radius: 8px;
+  cursor: pointer;
+ 
+ 
+}
+#btn button:hover{
+  background: #e5b151;
+}
